@@ -1,0 +1,32 @@
+{
+  "name": "@twoastronauts/semantic-release-lab",
+  "version": "0.0.0-development",
+  "description": "Semantic release lab",
+  "homepage": "https://github.com/Julianhm9612/semantic-release-lab#readme",
+  "bugs": {
+    "url": "https://github.com/Julianhm9612/semantic-release-lab/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Julianhm9612/semantic-release-lab.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "semantic-release": "semantic-release"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "semantic-release": "^25.0.3",
+    "typescript": "^5.9.3"
+  }
+}
